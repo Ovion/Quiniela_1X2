@@ -1,0 +1,19 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.avisos_cap_api import AvisosCapApi
+from swagger_client.api.indices_incendios_api import IndicesIncendiosApi
+from swagger_client.api.informacion_satelite_api import InformacionSateliteApi
+from swagger_client.api.maestro_api import MaestroApi
+from swagger_client.api.mapas_y_graficos_api import MapasYGraficosApi
+from swagger_client.api.observacion_convencional_api import ObservacionConvencionalApi
+from swagger_client.api.prediccion_maritima_api import PrediccionMaritimaApi
+from swagger_client.api.predicciones_especificas_api import PrediccionesEspecificasApi
+from swagger_client.api.predicciones_normalizadas_texto_api import PrediccionesNormalizadasTextoApi
+from swagger_client.api.productos_climatologicos_api import ProductosClimatologicosApi
+from swagger_client.api.red_radares_api import RedRadaresApi
+from swagger_client.api.red_rayos_api import RedRayosApi
+from swagger_client.api.redes_especiales_api import RedesEspecialesApi
+from swagger_client.api.valores_climatologicos_api import ValoresClimatologicosApi
